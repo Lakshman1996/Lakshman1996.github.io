@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./ble.js" ></script>
+</head>
+<body>
+        <form>
+                <label for="allDevices">All Devices</label>
+                <input id="allDevices" type="checkbox">
+                <input id="service" type="text" size="17" list="services" placeholder="Bluetooth Service">
+                <input id="name" type="text" size="17" placeholder="Device Name">
+                <input id="namePrefix" type="text" size="17" placeholder="Device Name Prefix">
+                <button>Get Bluetooth Device Info</button>
+              </form>
+    <button onclick="onButtonClick()" >Bluetooth test</button>
+    
+</body>
+</html>
